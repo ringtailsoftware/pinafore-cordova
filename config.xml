@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pinafore.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Pinafore</name>
+    <description>Pinafore App</description>
+    <author email="toby-pinafore@ringtailsoftware.co.uk" href="https://cordova.apache.org">
+        Toby Jaffey
+    </author>
+
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+
+    <icon src="res/apple-icon.png" />
+    <content src="https://pinafore.social" />
+    <!--<allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />-->
+    <access origin="*" />
+    <allow-navigation href="https://pinafore.social/*" />
+    <allow-navigation href="https://*/oauth/*" />
+    <allow-navigation href="https://*/auth/sign_in" />
+    <allow-intent href="*" />
+    <!--<access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />-->
+
+</widget>
